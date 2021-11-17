@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:id="@+id/imgLogo"
+        android:src="@drawable/key"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLogin"
+        android:text="User Profile"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editUserName"
+        android:background="@drawable/edittextbox"
+        android:ems="15"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCountry"
+        android:text="Country"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editCountry"
+        android:background="@drawable/edittextbox"
+        android:ems="15"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPhone"
+        android:text="Phone Number"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPhone"
+        android:background="@drawable/edittextbox"
+        android:ems="15"
+        android:layout_gravity="center" />
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPickBgColor"
+        android:text="Pick Color for Background"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSaveUser"
+        android:text="Save User Data"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+</LinearLayout>
